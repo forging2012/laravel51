@@ -19,7 +19,7 @@ laravel51是基于Laravel5.1开发的简单博客程序。
 2)将.env.example重命名为.env
 
 内容如下：
->DB_HOST=localhost
+DB_HOST=localhost
 DB_DATABASE=laravel51
 DB_USERNAME=root
 DB_PASSWORD=
