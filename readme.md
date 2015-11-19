@@ -19,27 +19,11 @@ laravel51是基于Laravel5.1开发的简单博客程序。
 2)将.env.example重命名为.env
 
 内容如下：
-···
-APP_ENV=local
-APP_DEBUG=true
-APP_KEY=cbX69Nfw6jyaRLHZvAucTlRv2lbOpyhV
-
-DB_HOST=localhost
+>DB_HOST=localhost
 DB_DATABASE=laravel51
 DB_USERNAME=root
 DB_PASSWORD=
 
-CACHE_DRIVER=file
-SESSION_DRIVER=file
-QUEUE_DRIVER=sync
-
-MAIL_DRIVER=smtp
-MAIL_HOST=mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-···
 
 3) 本地环境切换到文件夹下运行命令 <code>php artisan serve</code> （打开<code>localhost:8000</code>即可看到效果）
 
